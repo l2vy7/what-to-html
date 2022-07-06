@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+.box {
+  height: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"], textarea {
+  border-radius: 0.25rem;
+  border: 2px solid green;
+  color: lime;
+  font-family: "Cascadia Mono", monospace;
+  background-color: black;
+  text-align: center;
+  outline: none;
+  margin: 5px;
+}
+
+button {
+  border-radius: 0.25rem;
+  border: 2px solid #4d4dff;
+  padding: 5px;
+  color: white;
+  font-family: "Cascadia Mono", monospace;
+  background-color: #0000b3;
+  text-align: center;
+  outline: none;
+}
+
+p {
+  border-radius: 0.25rem;
+  border: 2px solid #2e2e2e;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Cascadia Mono", monospace;
+}
